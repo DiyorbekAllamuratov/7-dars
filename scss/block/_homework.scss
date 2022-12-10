@@ -1,0 +1,36 @@
+.sms{
+    position: relative;
+    .box{
+        .corner{
+            border-top:20px solid #b0b0e8;
+            border-right:20px solid transparent;
+            border-left:20px solid transparent;
+            position: absolute;
+            left: -20px;
+            z-index: 1;
+        }
+        background-color:#b0b0e8;
+        border-radius: 10px;
+        p{
+           padding: 25px; 
+        }
+    }
+}
+.sms2{
+    position: relative;
+    .box2{
+            background-color:#bbbbbb;
+            border-radius: 10px;
+        .corner2{
+            border-top:20px solid #bbbbbb;
+            border-right:20px solid transparent;
+            border-left:20px solid transparent;
+            position: absolute;
+            right: -20px;
+            z-index: 1;
+        }
+        p{
+            padding: 25px; 
+        }
+    }
+}
